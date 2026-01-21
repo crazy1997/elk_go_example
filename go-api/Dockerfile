@@ -1,4 +1,5 @@
-FROM golang:1.21-alpine AS builder
+# ИЗМЕНИТЬ ЭТУ СТРОКУ: использовать Go 1.25 или выше
+FROM golang:1.25-alpine AS builder
 
 WORKDIR /app
 
