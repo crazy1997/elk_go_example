@@ -22,9 +22,6 @@ WORKDIR /root/
 # Копируем бинарник
 COPY --from=builder /app/main .
 
-# Создаем директорию для статики
-RUN mkdir -p static
-COPY --from=builder /app/static ./static
 
 # Экспортируем порт
 EXPOSE 8080
