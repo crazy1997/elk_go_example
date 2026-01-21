@@ -10,9 +10,9 @@ import (
     "time"
     
     "github.com/gorilla/mux"
-    "go-api/handlers"
-    "go-api/logging"
-    "go-api/metrics"
+    "github.com/crazy1997/go-api/handlers"
+    "github.com/crazy1997/go-api/logging"
+    "github.com/crazy1997/go-api/metrics"
 )
 
 func main() {
